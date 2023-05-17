@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="[w^=TXn!)ns/(;Hp^kb7" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="4zF[[tKjirN%W4}a-^~."><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="device_gesture_event" id="u`#w=EPMW:QB0vEBt~Wh" x="221" y="77"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="basic_show_icon" id="DA=q]9|1k(]r)S~|bAa4"><field name="i">IconNames.No</field><next><block type="playMelody" id="_pc`L,%5($E+Z^98|70v"><value name="melody"><shadow type="melody_editor" id="KM5xa7Q`PE$_a,,Tb1}t"><field name="melody">"C5 G B A F A C5 B "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="FfG0}YEF7o?oTo,rMw/S"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value><next><block type="device_show_leds" id="oZbae9.5HHmlmBS9@7X$"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        # # . . . 
+        . # . . .
+        `</field></block></next></block></next></block></statement></block><block type="input_logo_event" id="Uu2`]lG_aIwCGsCM=x(c" x="53" y="476"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="playMelody" id="-tQL(q(Sq~by/k{Gq:q$"><value name="melody"><shadow type="melody_editor" id="#FDj/+e1#`(s.~iZbB=8"><field name="melody">"C5 B A G F E D C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="h3ke9*dqM!j?LCk^I)4|"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value><next><block type="device_show_leds" id="!;D,5)]IFKAH-IqC)tjr"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement></block></xml>
